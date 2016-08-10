@@ -1,10 +1,6 @@
 <?php
 
-$(){
-    'asdasd';
-}
-
-
+echo "test";
 
 
 
