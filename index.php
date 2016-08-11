@@ -1,9 +1,12 @@
 <?php
 
-class Master{
-    
+class MasterBoler{
+
 }
 
+class Mastervix{
+    
+}
 
 
 
