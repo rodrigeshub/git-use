@@ -1,8 +1,21 @@
 <?php
 
-$x = 1;
-if ($x == '1') { echo 'a'; }
-if ($x == true) { echo 'b'; }
-if((bool)$x === true){ echo 'e'; }
-if ($x === true) {  echo 'c'; }
-if((int)$x === true){ echo 'd'; }
+var_dump(Singleton::getInstance());
+
+
+class Singleton{
+
+    static private $_instance;
+
+    private function __construct(){
+    }
+    private function __clone(){
+    }
+
+    static public function getInstance(){
+        if(self::$_instance===null){
+            self::$_instance = new self();
+        }
+        return self::$_instance;
+    }
+}
