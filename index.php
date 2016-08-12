@@ -1,11 +1,9 @@
 <?php
 
-class Master1{
-    
-}
-
-
-
+var_dump(Singleto1n::get());
+var_dump(Singleton::get());
+var_dump(Sing1leton::get());
+var_dump(Sing2leton::get());
 
 
 
