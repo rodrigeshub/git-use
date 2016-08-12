@@ -1,7 +1,12 @@
 <?php
 
+<<<<<<< HEAD
 class MasterBoler111{
 
+=======
+class Master1{
+    
+>>>>>>> master
 }
 
 class Mastervix{
