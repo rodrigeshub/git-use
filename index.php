@@ -1,6 +1,6 @@
 <?php
 
-class Master{
+class Master1{
     
 }
 
